@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE8F4A6527F48FA700CA8ED1 /* ProductPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8F4A6427F48FA700CA8ED1 /* ProductPage.swift */; };
+		EE8F4A6927F491FE00CA8ED1 /* Liked.png in Resources */ = {isa = PBXBuildFile; fileRef = EE8F4A6827F491FE00CA8ED1 /* Liked.png */; };
+		EE8F4A6F27F492A900CA8ED1 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = EE8F4A6E27F492A900CA8ED1 /* Home.png */; };
+		EE8F4A7227F495CA00CA8ED1 /* Cart.png in Resources */ = {isa = PBXBuildFile; fileRef = EE8F4A7027F495CA00CA8ED1 /* Cart.png */; };
+		EE8F4A7327F495CA00CA8ED1 /* Profile.png in Resources */ = {isa = PBXBuildFile; fileRef = EE8F4A7127F495CA00CA8ED1 /* Profile.png */; };
+		EE8F4A7627F49F4000CA8ED1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8F4A7527F49F4000CA8ED1 /* Home.swift */; };
+		EE8F4A7927F4C35800CA8ED1 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8F4A7827F4C35800CA8ED1 /* Product.swift */; };
+		EE8F4A7B27F4E83D00CA8ED1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8F4A7A27F4E83D00CA8ED1 /* HomeViewModel.swift */; };
+		EE8F4A8727F50F5100CA8ED1 /* apple-watch-series-4-main.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE8F4A7C27F50F5100CA8ED1 /* apple-watch-series-4-main.jpg */; };
+		EE8F4A8827F50F5100CA8ED1 /* iphone-13-pink-select-2021.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EE8F4A7D27F50F5100CA8ED1 /* iphone-13-pink-select-2021.jpeg */; };
+		EE8F4A8927F50F5100CA8ED1 /* apple_new-ipad-air_sky-blue_09152020_carousel.jpg.large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE8F4A7E27F50F5100CA8ED1 /* apple_new-ipad-air_sky-blue_09152020_carousel.jpg.large.jpg */; };
+		EE8F4A8A27F50F5100CA8ED1 /* iphone-12-purple-select-2021.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EE8F4A7F27F50F5100CA8ED1 /* iphone-12-purple-select-2021.jpeg */; };
+		EE8F4A8B27F50F5100CA8ED1 /* Apple_delivers-apple-watch-series-6_09152020_big.jpg.large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE8F4A8027F50F5100CA8ED1 /* Apple_delivers-apple-watch-series-6_09152020_big.jpg.large.jpg */; };
+		EE8F4A8C27F50F5100CA8ED1 /* iphone11-green-select-2019.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EE8F4A8127F50F5100CA8ED1 /* iphone11-green-select-2019.jpeg */; };
+		EE8F4A8D27F50F5100CA8ED1 /* ipad-mini-select-wifi-pink-202109_FMT_WHH.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EE8F4A8227F50F5100CA8ED1 /* ipad-mini-select-wifi-pink-202109_FMT_WHH.jpeg */; };
+		EE8F4A8E27F50F5100CA8ED1 /* gear-s3_jump_experience.png in Resources */ = {isa = PBXBuildFile; fileRef = EE8F4A8327F50F5100CA8ED1 /* gear-s3_jump_experience.png */; };
+		EE8F4A8F27F50F5100CA8ED1 /* macbook-pro-14-and-16_overview__fz0lron5xyuu_og.png in Resources */ = {isa = PBXBuildFile; fileRef = EE8F4A8427F50F5100CA8ED1 /* macbook-pro-14-and-16_overview__fz0lron5xyuu_og.png */; };
+		EE8F4A9027F50F5100CA8ED1 /* apple-imac-24-2021-header.jpg.webp in Resources */ = {isa = PBXBuildFile; fileRef = EE8F4A8527F50F5100CA8ED1 /* apple-imac-24-2021-header.jpg.webp */; };
+		EE8F4A9127F50F5100CA8ED1 /* Apple_new-iphone-se-white_04152020_big.jpg.large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE8F4A8627F50F5100CA8ED1 /* Apple_new-iphone-se-white_04152020_big.jpg.large.jpg */; };
+		EE8F4A9327F5D16700CA8ED1 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8F4A9227F5D16700CA8ED1 /* SearchView.swift */; };
+		EE8F4A9527F5E46A00CA8ED1 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8F4A9427F5E46A00CA8ED1 /* ProfilePage.swift */; };
+		EE8F4A9727F5F36500CA8ED1 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8F4A9627F5F36500CA8ED1 /* ProductDetailView.swift */; };
+		EE8F4A9927F5F3C500CA8ED1 /* SharedDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8F4A9827F5F3C500CA8ED1 /* SharedDataModel.swift */; };
+		EE8F4A9C27F63A2F00CA8ED1 /* LikedPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8F4A9B27F63A2F00CA8ED1 /* LikedPage.swift */; };
+		EE8F4A9E27F65F1400CA8ED1 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8F4A9D27F65F1400CA8ED1 /* Cart.swift */; };
+		EE8F4AC627F707B500CA8ED1 /* Staggered.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8F4AC527F707B500CA8ED1 /* Staggered.swift */; };
+		EEB49EE327F219A100F764A8 /* ShoppingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB49EE227F219A100F764A8 /* ShoppingAppApp.swift */; };
+		EEB49EE527F219A100F764A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB49EE427F219A100F764A8 /* ContentView.swift */; };
+		EEB49EE727F219A600F764A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB49EE627F219A600F764A8 /* Assets.xcassets */; };
+		EEB49EEA27F219A600F764A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB49EE927F219A600F764A8 /* Preview Assets.xcassets */; };
+		EEB49EF227F393D400F764A8 /* OnBoardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB49EF127F393D400F764A8 /* OnBoardingPage.swift */; };
+		EEB49EFC27F3A61A00F764A8 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB49EFB27F3A61A00F764A8 /* Login.swift */; };
+		EEB49EFF27F3A64100F764A8 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB49EFE27F3A64100F764A8 /* LoginViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE8F4A6427F48FA700CA8ED1 /* ProductPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPage.swift; sourceTree = "<group>"; };
+		EE8F4A6827F491FE00CA8ED1 /* Liked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Liked.png; sourceTree = "<group>"; };
+		EE8F4A6E27F492A900CA8ED1 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		EE8F4A7027F495CA00CA8ED1 /* Cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cart.png; sourceTree = "<group>"; };
+		EE8F4A7127F495CA00CA8ED1 /* Profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Profile.png; sourceTree = "<group>"; };
+		EE8F4A7527F49F4000CA8ED1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		EE8F4A7827F4C35800CA8ED1 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		EE8F4A7A27F4E83D00CA8ED1 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		EE8F4A7C27F50F5100CA8ED1 /* apple-watch-series-4-main.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple-watch-series-4-main.jpg"; sourceTree = "<group>"; };
+		EE8F4A7D27F50F5100CA8ED1 /* iphone-13-pink-select-2021.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iphone-13-pink-select-2021.jpeg"; sourceTree = "<group>"; };
+		EE8F4A7E27F50F5100CA8ED1 /* apple_new-ipad-air_sky-blue_09152020_carousel.jpg.large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_new-ipad-air_sky-blue_09152020_carousel.jpg.large.jpg"; sourceTree = "<group>"; };
+		EE8F4A7F27F50F5100CA8ED1 /* iphone-12-purple-select-2021.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iphone-12-purple-select-2021.jpeg"; sourceTree = "<group>"; };
+		EE8F4A8027F50F5100CA8ED1 /* Apple_delivers-apple-watch-series-6_09152020_big.jpg.large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Apple_delivers-apple-watch-series-6_09152020_big.jpg.large.jpg"; sourceTree = "<group>"; };
+		EE8F4A8127F50F5100CA8ED1 /* iphone11-green-select-2019.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iphone11-green-select-2019.jpeg"; sourceTree = "<group>"; };
+		EE8F4A8227F50F5100CA8ED1 /* ipad-mini-select-wifi-pink-202109_FMT_WHH.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ipad-mini-select-wifi-pink-202109_FMT_WHH.jpeg"; sourceTree = "<group>"; };
+		EE8F4A8327F50F5100CA8ED1 /* gear-s3_jump_experience.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gear-s3_jump_experience.png"; sourceTree = "<group>"; };
+		EE8F4A8427F50F5100CA8ED1 /* macbook-pro-14-and-16_overview__fz0lron5xyuu_og.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "macbook-pro-14-and-16_overview__fz0lron5xyuu_og.png"; sourceTree = "<group>"; };
+		EE8F4A8527F50F5100CA8ED1 /* apple-imac-24-2021-header.jpg.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "apple-imac-24-2021-header.jpg.webp"; sourceTree = "<group>"; };
+		EE8F4A8627F50F5100CA8ED1 /* Apple_new-iphone-se-white_04152020_big.jpg.large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Apple_new-iphone-se-white_04152020_big.jpg.large.jpg"; sourceTree = "<group>"; };
+		EE8F4A9227F5D16700CA8ED1 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		EE8F4A9427F5E46A00CA8ED1 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		EE8F4A9627F5F36500CA8ED1 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		EE8F4A9827F5F3C500CA8ED1 /* SharedDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedDataModel.swift; sourceTree = "<group>"; };
+		EE8F4A9B27F63A2F00CA8ED1 /* LikedPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedPage.swift; sourceTree = "<group>"; };
+		EE8F4A9D27F65F1400CA8ED1 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		EE8F4AC527F707B500CA8ED1 /* Staggered.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Staggered.swift; sourceTree = "<group>"; };
+		EEB49EDF27F219A100F764A8 /* ShoppingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB49EE227F219A100F764A8 /* ShoppingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingAppApp.swift; sourceTree = "<group>"; };
+		EEB49EE427F219A100F764A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EEB49EE627F219A600F764A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEB49EE927F219A600F764A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEB49EF127F393D400F764A8 /* OnBoardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingPage.swift; sourceTree = "<group>"; };
+		EEB49EFB27F3A61A00F764A8 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		EEB49EFE27F3A64100F764A8 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEB49EDC27F219A100F764A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE8F4A7427F49F1D00CA8ED1 /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				EE8F4A7527F49F4000CA8ED1 /* Home.swift */,
+				EE8F4A9427F5E46A00CA8ED1 /* ProfilePage.swift */,
+				EE8F4A9B27F63A2F00CA8ED1 /* LikedPage.swift */,
+				EE8F4A9D27F65F1400CA8ED1 /* Cart.swift */,
+			);
+			path = TabViews;
+			sourceTree = "<group>";
+		};
+		EE8F4A7727F4C34500CA8ED1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE8F4A7827F4C35800CA8ED1 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE8F4A9A27F5F56300CA8ED1 /* Image assests */ = {
+			isa = PBXGroup;
+			children = (
+				EE8F4A6E27F492A900CA8ED1 /* Home.png */,
+				EE8F4A6827F491FE00CA8ED1 /* Liked.png */,
+				EE8F4A7027F495CA00CA8ED1 /* Cart.png */,
+				EE8F4A7127F495CA00CA8ED1 /* Profile.png */,
+				EE8F4A8027F50F5100CA8ED1 /* Apple_delivers-apple-watch-series-6_09152020_big.jpg.large.jpg */,
+				EE8F4A7E27F50F5100CA8ED1 /* apple_new-ipad-air_sky-blue_09152020_carousel.jpg.large.jpg */,
+				EE8F4A8627F50F5100CA8ED1 /* Apple_new-iphone-se-white_04152020_big.jpg.large.jpg */,
+				EE8F4A8527F50F5100CA8ED1 /* apple-imac-24-2021-header.jpg.webp */,
+				EE8F4A7C27F50F5100CA8ED1 /* apple-watch-series-4-main.jpg */,
+				EE8F4A8327F50F5100CA8ED1 /* gear-s3_jump_experience.png */,
+				EE8F4A8227F50F5100CA8ED1 /* ipad-mini-select-wifi-pink-202109_FMT_WHH.jpeg */,
+				EE8F4A7F27F50F5100CA8ED1 /* iphone-12-purple-select-2021.jpeg */,
+				EE8F4A7D27F50F5100CA8ED1 /* iphone-13-pink-select-2021.jpeg */,
+				EE8F4A8127F50F5100CA8ED1 /* iphone11-green-select-2019.jpeg */,
+				EE8F4A8427F50F5100CA8ED1 /* macbook-pro-14-and-16_overview__fz0lron5xyuu_og.png */,
+			);
+			path = "Image assests";
+			sourceTree = "<group>";
+		};
+		EEB49ED627F219A100F764A8 = {
+			isa = PBXGroup;
+			children = (
+				EEB49EE127F219A100F764A8 /* ShoppingApp */,
+				EEB49EE027F219A100F764A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEB49EE027F219A100F764A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEB49EDF27F219A100F764A8 /* ShoppingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEB49EE127F219A100F764A8 /* ShoppingApp */ = {
+			isa = PBXGroup;
+			children = (
+				EE8F4A7727F4C34500CA8ED1 /* Model */,
+				EEB49EFD27F3A63000F764A8 /* ViewModel */,
+				EEB49EF027F393BC00F764A8 /* View */,
+				EEB49EE227F219A100F764A8 /* ShoppingAppApp.swift */,
+				EEB49EE427F219A100F764A8 /* ContentView.swift */,
+				EEB49EE627F219A600F764A8 /* Assets.xcassets */,
+				EE8F4A9A27F5F56300CA8ED1 /* Image assests */,
+				EEB49EE827F219A600F764A8 /* Preview Content */,
+			);
+			path = ShoppingApp;
+			sourceTree = "<group>";
+		};
+		EEB49EE827F219A600F764A8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EEB49EE927F219A600F764A8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EEB49EF027F393BC00F764A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE8F4AC527F707B500CA8ED1 /* Staggered.swift */,
+				EEB49EF127F393D400F764A8 /* OnBoardingPage.swift */,
+				EEB49EFB27F3A61A00F764A8 /* Login.swift */,
+				EE8F4A6427F48FA700CA8ED1 /* ProductPage.swift */,
+				EE8F4A9227F5D16700CA8ED1 /* SearchView.swift */,
+				EE8F4A9627F5F36500CA8ED1 /* ProductDetailView.swift */,
+				EE8F4A7427F49F1D00CA8ED1 /* TabViews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EEB49EFD27F3A63000F764A8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EEB49EFE27F3A64100F764A8 /* LoginViewModel.swift */,
+				EE8F4A7A27F4E83D00CA8ED1 /* HomeViewModel.swift */,
+				EE8F4A9827F5F3C500CA8ED1 /* SharedDataModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEB49EDE27F219A100F764A8 /* ShoppingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB49EED27F219A600F764A8 /* Build configuration list for PBXNativeTarget "ShoppingApp" */;
+			buildPhases = (
+				EEB49EDB27F219A100F764A8 /* Sources */,
+				EEB49EDC27F219A100F764A8 /* Frameworks */,
+				EEB49EDD27F219A100F764A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShoppingApp;
+			productName = ShoppingApp;
+			productReference = EEB49EDF27F219A100F764A8 /* ShoppingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEB49ED727F219A100F764A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EEB49EDE27F219A100F764A8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EEB49EDA27F219A100F764A8 /* Build configuration list for PBXProject "ShoppingApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEB49ED627F219A100F764A8;
+			productRefGroup = EEB49EE027F219A100F764A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEB49EDE27F219A100F764A8 /* ShoppingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEB49EDD27F219A100F764A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8F4A8C27F50F5100CA8ED1 /* iphone11-green-select-2019.jpeg in Resources */,
+				EE8F4A6F27F492A900CA8ED1 /* Home.png in Resources */,
+				EE8F4A8727F50F5100CA8ED1 /* apple-watch-series-4-main.jpg in Resources */,
+				EE8F4A9127F50F5100CA8ED1 /* Apple_new-iphone-se-white_04152020_big.jpg.large.jpg in Resources */,
+				EE8F4A7327F495CA00CA8ED1 /* Profile.png in Resources */,
+				EE8F4A6927F491FE00CA8ED1 /* Liked.png in Resources */,
+				EE8F4A9027F50F5100CA8ED1 /* apple-imac-24-2021-header.jpg.webp in Resources */,
+				EE8F4A8A27F50F5100CA8ED1 /* iphone-12-purple-select-2021.jpeg in Resources */,
+				EE8F4A8E27F50F5100CA8ED1 /* gear-s3_jump_experience.png in Resources */,
+				EE8F4A7227F495CA00CA8ED1 /* Cart.png in Resources */,
+				EE8F4A8F27F50F5100CA8ED1 /* macbook-pro-14-and-16_overview__fz0lron5xyuu_og.png in Resources */,
+				EE8F4A8D27F50F5100CA8ED1 /* ipad-mini-select-wifi-pink-202109_FMT_WHH.jpeg in Resources */,
+				EE8F4A8827F50F5100CA8ED1 /* iphone-13-pink-select-2021.jpeg in Resources */,
+				EEB49EEA27F219A600F764A8 /* Preview Assets.xcassets in Resources */,
+				EEB49EE727F219A600F764A8 /* Assets.xcassets in Resources */,
+				EE8F4A8B27F50F5100CA8ED1 /* Apple_delivers-apple-watch-series-6_09152020_big.jpg.large.jpg in Resources */,
+				EE8F4A8927F50F5100CA8ED1 /* apple_new-ipad-air_sky-blue_09152020_carousel.jpg.large.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEB49EDB27F219A100F764A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8F4AC627F707B500CA8ED1 /* Staggered.swift in Sources */,
+				EE8F4A9327F5D16700CA8ED1 /* SearchView.swift in Sources */,
+				EE8F4A6527F48FA700CA8ED1 /* ProductPage.swift in Sources */,
+				EE8F4A9727F5F36500CA8ED1 /* ProductDetailView.swift in Sources */,
+				EE8F4A9C27F63A2F00CA8ED1 /* LikedPage.swift in Sources */,
+				EE8F4A9927F5F3C500CA8ED1 /* SharedDataModel.swift in Sources */,
+				EE8F4A7B27F4E83D00CA8ED1 /* HomeViewModel.swift in Sources */,
+				EE8F4A7927F4C35800CA8ED1 /* Product.swift in Sources */,
+				EE8F4A9E27F65F1400CA8ED1 /* Cart.swift in Sources */,
+				EEB49EE527F219A100F764A8 /* ContentView.swift in Sources */,
+				EEB49EF227F393D400F764A8 /* OnBoardingPage.swift in Sources */,
+				EEB49EE327F219A100F764A8 /* ShoppingAppApp.swift in Sources */,
+				EE8F4A9527F5E46A00CA8ED1 /* ProfilePage.swift in Sources */,
+				EEB49EFF27F3A64100F764A8 /* LoginViewModel.swift in Sources */,
+				EEB49EFC27F3A61A00F764A8 /* Login.swift in Sources */,
+				EE8F4A7627F49F4000CA8ED1 /* Home.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EEB49EEB27F219A600F764A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEB49EEC27F219A600F764A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEB49EEE27F219A600F764A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShoppingApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cognizant.ShoppingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEB49EEF27F219A600F764A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShoppingApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cognizant.ShoppingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEB49EDA27F219A100F764A8 /* Build configuration list for PBXProject "ShoppingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB49EEB27F219A600F764A8 /* Debug */,
+				EEB49EEC27F219A600F764A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB49EED27F219A600F764A8 /* Build configuration list for PBXNativeTarget "ShoppingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB49EEE27F219A600F764A8 /* Debug */,
+				EEB49EEF27F219A600F764A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEB49ED727F219A100F764A8 /* Project object */;
+}
